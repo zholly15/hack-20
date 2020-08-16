@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('img/people.jpg');
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  padding: 40px 0 50px;
+}
+.hamburger {
+  padding: 5px 10px 5px 20px;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+.sidebar {
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+}
+#sidebar1 {
+  background: #af81ea;
+}
+.sidebar > li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.sidebar a {
+  text-decoration: none;
+  margin-bottom: 11mm;
+  color: #fff;
+}
+.close-sidebar {
+  font-size: 1.5em;
+  padding: 5px 15px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.headerbar {
+  background: #af81ea;
+  color: #fff;
+  line-height: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 1000;
+}
+.headerbar a {
+  text-decoration: none;
+  color: #fff;
+}
+.site-name {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+#pageWrap {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+#head1{
+  position: absolute; left: 50px; top: 200px;
+  text-align: center;
+  color: aqua;
+}
